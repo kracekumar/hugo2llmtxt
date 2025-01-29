@@ -1,9 +1,12 @@
 [project]
 name = "hugo2llmtxt"
-version = "0.1.0"
+version = "0.1.2"
 description = "Generate the llms.txt file for the hugo website"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "typer>=0.15.1",
 ]
+
+[project.scripts]
+hygo2llmtxt = "hugo2llmtxt:app"
