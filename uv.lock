@@ -24,7 +24,7 @@ wheels = [
 
 [[package]]
 name = "hugo2llmtxt"
-version = "0.1.0"
+version = "0.1.4"
 source = { virtual = "." }
 dependencies = [
     { name = "typer" },
